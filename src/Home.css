@@ -1,0 +1,188 @@
+/* .titleBlock {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10%;
+} */
+
+.homeWrapper {
+    background-color: #21304b;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titleSection {
+    width: 50%;
+    /* border: 1px solid tomato; */
+    /* text-align: left; */
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    /* margin-top: 10%; */
+    height: 100vh;
+}
+
+.titleBlock {
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+    /* margin-top: 10%; */
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 15%;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.hiMyName {
+    font-family: 'JetBrains Mono', monospace;
+    color: #27c95d;
+    font-size: 1.2em;
+}
+
+.nameTitle {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+    font-size: 4em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.nameDescription {
+    color:rgb(202, 202, 202);
+    font-size: 3.5em;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.profilePicWrapper {
+    /* margin-left: 10%; */
+    max-width: 80%;
+}
+
+.picWrapper {
+    height: 100%;
+    overflow: hidden;
+    /* border: 5px solid black; */
+}
+
+.profilePic {
+    border-radius: 10px;
+    /* border: 1px solid #27c95d; */
+    /* max-width: 50%; */
+}
+
+.aboutMeText {
+    font-size: 1.2em;
+    color:rgb(202, 202, 202);
+    margin-top: 2%;
+}
+
+.sectionHeader {
+    font-family: 'JetBrains Mono', monospace;
+    color: #27c95d;
+    font-size: 2em;
+}
+
+.aboutMeSection {
+    width: 50%;
+    font-family: 'JetBrains Mono', monospace;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 50px;
+    
+}
+
+.twoColList {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.9em;
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+}
+
+.rightList {
+    margin-left: 8%;
+}
+
+.workExperienceSection {
+    width: 50%;
+    margin-top: 10%;
+    
+}
+
+.hobbiesGrid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    /* Title block */
+    .titleSection {
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: 100px;
+    }
+    .titleBlock {
+        width: 100%;
+    }
+    .nameTitle { 
+        font-size: 2em;
+    }
+    .nameDescription {
+        font-size: 1.5em;
+    }
+
+    /* About Me */
+    .aboutMeSection {
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 450px 1fr;
+        gap: 0px;
+    }
+
+    .aboutMeText {
+        font-size: 0.9em;
+    }
+
+    .picWrapper {
+        height: 65%;
+        overflow: hidden;
+        /* border: 5px solid black; */
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .profilePic {
+        border-radius: 0px;
+        /* max-width: 50%; */
+    }
+
+    .workExperienceSection {
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+        /* display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px; */
+    }
+
+    .hobbiesGrid {
+        grid-template-columns: 1fr;
+    }
+  }

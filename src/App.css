@@ -1,0 +1,31 @@
+.App {
+  /* text-align: center; */
+  max-width: 100vw;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  /* #21304b */
+  background-color: #21304b;
+  /* width: 100vw; */
+  max-width: 100vw;
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  /* padding: 25px; */
+  color: white;
+  /* padding-bottom: 15%; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px auto;
+  /* margin-bottom: 50px; */
+}
+
