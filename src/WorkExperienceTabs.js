@@ -10,7 +10,7 @@ const WorkExperienceTabs = (props) => {
     const options = workExperience
     const { getRootProps, getRadioProps } = useRadioGroup({
         name: "framework",
-        defaultValue: "Sr Software Engineer0",
+        defaultValue: "Sr Software Engineer / Software Engineer0",
         onChange: function (e) {
             console.log(e)
             setActiveJob(workExperience[e.slice(-1)])
