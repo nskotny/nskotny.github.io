@@ -160,7 +160,7 @@
     }
 
     .picWrapper {
-        height: 65%;
+        /* height: 65%; */
         overflow: hidden;
         /* border: 5px solid black; */
         border-radius: 10px;
