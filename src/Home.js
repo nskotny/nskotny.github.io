@@ -29,13 +29,13 @@ const Home = (props) => {
                 <section className='aboutMeTextBlock'>
                     <div className='sectionHeader'>About Me</div>
                     <div className='aboutMeText'>
-                        <p>Hi! My name is Nick, I am currently a software engineer at Optum in Boston, MA.</p>
+                        <p>Hi! My name is Nick, I am currently a full stack software engineer at Optum in Boston, MA.</p>
                     </div>
                     <div className='aboutMeText'>
                         <p>I enjoy building with React and learning about new technologies. </p>
                     </div>
                     <div className='aboutMeText'>
-                        <span>Shortly after graduating from the </span><span style={{ color: '#27c95d' }}>University of Massachusetts Amherst</span><span>, I joined the Technology Development Program at <span style={{ color: '#27c95d' }}>Optum</span> where I have worked to make the healthcare system work better for everyone</span>
+                        <span>Shortly after graduating from the </span><span style={{ color: '#27c95d' }}>University of Massachusetts Amherst</span><span>, I joined the Technology Development Program at <span style={{ color: '#27c95d' }}>Optum</span> where I have built web applications to make our healthcare system work better for everyone.</span>
                     </div>
                     <div className='aboutMeText'>
                         <p>Here is the tech stack I've been working with recently:</p>
@@ -87,7 +87,7 @@ const Home = (props) => {
 
             <section className='workExperienceSection' id='hobbiesSection'>
                 <div className='sectionHeader'>Outside the Office</div>
-                <div>When I'm not coding, you can find me on the water! Fishing and kayaking are two of my biggest hobbies. I also love travelling, hiking, rock climbing, cooking, and gaming.</div>
+                <div>When I'm not coding, you can find me on the water! Fishing and kayaking are two of my biggest hobbies. I also love hiking, rock climbing, cooking, and gaming.</div>
                 <div className='hobbiesGrid'>
                     <img src={'IMG-1140.jpg'} alt='test' />
                     <img src={'IMG-1648.jpg'} alt='test' />
