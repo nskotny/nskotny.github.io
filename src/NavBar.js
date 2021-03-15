@@ -29,7 +29,7 @@ const NavBar = (props) => {
                     <a href={'#hobbiesSection'}>
                         <p className='navLink'>Hobbies</p>
                     </a>
-                    <a href={'./Skotny_Resume_2021.pdf'} without rel="noopener noreferrer" target="_blank">
+                    <a href={'./Skotny_Resume_Site.pdf'} without rel="noopener noreferrer" target="_blank">
                         <Button className='navLink' rightIcon={<DownloadIcon />} borderColor="#27c95d" color='#27c95d' _hover={{ bg: "#293c5f" }} variant='outline'>Resume</Button>
                     </a>
                 </div>
@@ -63,7 +63,7 @@ const NavBar = (props) => {
                                 <a href={'#hobbiesSection'} onClick={onClose}>
                                     <p className='navLink'>Hobbies</p>
                                 </a>
-                                <a href={'./Skotny_Resume_2021.pdf'} without rel="noopener noreferrer" target="_blank">
+                                <a href={'./Skotny_Resume_Site.pdf'} without rel="noopener noreferrer" target="_blank">
                                     <Button className='navLink' rightIcon={<DownloadIcon />} borderColor="#27c95d" color='#27c95d' _hover={{ bg: "#293c5f" }} variant='outline'>Resume</Button>
                                 </a>
                             </DrawerBody>
