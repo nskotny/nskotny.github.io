@@ -89,10 +89,10 @@ const Home = (props) => {
                 <div className='sectionHeader'>Outside the Office</div>
                 <div>When I'm not coding, you can find me on the water! Fishing and kayaking are two of my biggest hobbies. I also love hiking, rock climbing, cooking, and gaming.</div>
                 <div className='hobbiesGrid'>
-                    <img src={'IMG-1140.jpg'} alt='test' />
-                    <img src={'IMG-1648.jpg'} alt='test' />
-                    <img src={'IMG-4782.JPG'} alt='test' />
-                    <img src={'IMG-6449.JPG'} alt='test' />
+                    <img className='hobbyPic' src={'IMG-1140.jpg'} alt='test' />
+                    <img className='hobbyPic' src={'IMG-1648.jpg'} alt='test' />
+                    <img className='hobbyPic' src={'IMG-4782.JPG'} alt='test' />
+                    <img className='hobbyPic' src={'IMG-6449.JPG'} alt='test' />
                 </div>
             </section>
 
