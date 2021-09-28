@@ -16,7 +16,7 @@ const Home = (props) => {
                     <div>
                         <div className='hiMyName'>Hi, my name is</div>
                         <div className='nameTitle'>Nick Skotny.</div>
-                        <div className='nameDescription'>I'm a software engineer based in Boston, Ma.</div>
+                        <div className='nameDescription'>I'm a software engineer based in Boston, MA.</div>
                     </div>
                     <div className='profilePicWrapper'>
                     </div>
@@ -44,12 +44,12 @@ const Home = (props) => {
                         <List spacing={3}>
                             <ListItem>
                                 <ListIcon as={ChevronRightIcon} color="#27c95d" />
-                            JavaScript (ES6+)
-                        </ListItem>
+                                JavaScript (ES6+)
+                            </ListItem>
                             <ListItem>
                                 <ListIcon as={ChevronRightIcon} color="#27c95d" />
-                            React
-                        </ListItem>
+                                React
+                            </ListItem>
                             <ListItem>
                                 <ListIcon as={ChevronRightIcon} color="#27c95d" />
                                 Node.js
@@ -59,12 +59,12 @@ const Home = (props) => {
                         <List spacing={3} className='rightList'>
                             <ListItem>
                                 <ListIcon as={ChevronRightIcon} color="#27c95d" />
-                            HTML & CSS
-                        </ListItem>
+                                HTML & CSS
+                            </ListItem>
                             <ListItem>
                                 <ListIcon as={ChevronRightIcon} color="#27c95d" />
-                            Express.js
-                        </ListItem>
+                                Express.js
+                            </ListItem>
                             <ListItem>
                                 <ListIcon as={ChevronRightIcon} color="#27c95d" />
                                 MongoDB
